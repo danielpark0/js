@@ -22,7 +22,7 @@ console.log(`${x} == ${y} = ${x==y}`);
 console.log(`${x} != ${y} = ${x!=y}`);
 
 //4. 논리 연산자 : &&, ||, ^, ~
-if((x<y) && x!=0) console.log(`${x} < ${y} and ${x} is not 0`)
+if((x<y) && x!=0) console.log(`${x} < ${y} and ${x} is not 0`);
 
 //5. 비트 연산자 : &, |, ^, ~, >>, <<
 x=4;

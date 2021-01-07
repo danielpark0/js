@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+    <h1>Jqeury Example</h1>
+    <a href="http://jquery.com/">jQuery</a>
+    <div id = "data">
+    </div>
+    <script>
+        $(document).ready(function(){
+            $("a").click(function(event){
+                alert("The link will no loger take you to jquery.com");
+                event.preventDefault();
+            });
+        });
+    </script>
+</body>
+</html>
